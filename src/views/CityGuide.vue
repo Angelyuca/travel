@@ -65,9 +65,12 @@
         height: 700px;
         overflow: auto;
         margin: 0;
-        scrollbar-width: none;:: -webkit-scrollbar: none;
+        scrollbar-width: none;
     }
 
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     .wrapper-v2 {
         transition: 1s;
@@ -78,7 +81,5 @@
         grid-column-gap: 5px;
         position: relative;
     }
-
-
 
 </style>

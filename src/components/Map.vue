@@ -75,11 +75,15 @@
         color: #fff;
         text-transform: uppercase;
         font-size: 15px;
+        border: none;
     }
     button:hover{
         opacity: 0.5;
         color: black;
         transition: 1s;
+    }
+    button:focus{
+        outline: none!important;
     }
 
     .btn-v2{
