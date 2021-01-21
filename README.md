@@ -1,4 +1,4 @@
-# thetripboutique
+# travel
 
 ## Project setup
 ```
